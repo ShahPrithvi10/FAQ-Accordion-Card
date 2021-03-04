@@ -1,0 +1,72 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  height: 100%;
+  font-family: "Kumbh Sans"
+}
+
+img {
+  width: 100%;
+  position: absolute;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+hr {
+  background-color: grey;
+}
+
+.custom {
+  margin: 50px auto;
+  background-color: #fff;
+  width: 65%;
+  height: 50%;
+  border-radius: 1rem;
+  padding: 50px;
+  z-index: -2
+}
+
+.all-img {
+  position: relative;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover h2 {
+  font-weight: 900;
+}
+
+.desktop {
+  right: 7rem;
+}
+
+.box {
+  width: 40%;
+  z-index: 1;
+  right: 23rem;
+  top: 7rem;
+}
+
+.bg-img {
+  right: 8rem;
+}
